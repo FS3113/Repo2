@@ -5,7 +5,7 @@ From: ubuntu:18.04
 %post
 	apt-get -y update
 	apt-get -y install python3 python3-pip
-	pip3 install selenium
+	pip3 install selenium sklearn urllib3 sklearn nltk
 
 
 %files
@@ -13,4 +13,4 @@ From: ubuntu:18.04
 
 
 %runscript
-	python3 hello_world.py
+	python3 EducationToday/get_data_from_multiple_lists.py
