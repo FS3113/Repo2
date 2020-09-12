@@ -13,4 +13,4 @@ From: ubuntu:18.04
 
 
 %runscript
-	python3 EducationToday/get_data_from_multiple_lists.py
+	python3 example.py
