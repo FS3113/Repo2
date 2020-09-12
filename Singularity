@@ -6,11 +6,6 @@ From: ubuntu:18.04
 	apt-get -y update
 	apt-get -y install python3 python3-pip
 	pip3 install selenium sklearn urllib3 sklearn nltk
-
-
-%files
-	hello_world.py
-
-
+	
 %runscript
 	python3 example.py
